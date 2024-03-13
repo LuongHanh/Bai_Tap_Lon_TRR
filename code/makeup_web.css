@@ -1,0 +1,155 @@
+html {
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+body {
+    position: relative;
+    margin: 0;
+}
+#header {
+    background: aliceblue;
+}
+#nav {
+    position: fixed;
+    top: 0;
+    left: 12px;
+    right: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 10;
+}
+#nav-bothside{
+    background: #018564;
+    color: #d1e8e2;
+}
+#nav-bothside:hover {
+    background-color: #016149;
+}
+.nav-items{
+    text-decoration: none;
+    background-image: linear-gradient(#9deb0c, #fff);
+    color: #7205a8;
+    display: inline-flex;
+    height: 30px;
+    width: 140px;
+    margin: 0px 4px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: math;
+    border: 1px solid #7205a8;
+    line-height: 16px;
+}
+.nav-items:hover {
+    background-image: linear-gradient(#fff, #34ebe5);
+}
+.phan-dem {
+    border: 1px solid black;
+    margin-bottom: 60px;
+}
+#noi-dung {
+    background-color: #F4F5F6;
+}
+.chung-3-phan{
+    margin-top: 60px ;
+    padding: 16px;
+}
+.ten-bai-toan {
+    padding: 16px 0px;
+    background: lightblue;
+    text-align: center;
+}
+.phan-tich-bang-chu {
+    text-align: justify;
+}
+img {
+    display: block;
+    width: 600px;
+    height: inherit;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+#bai-toan-toi-uu-img {
+    width: 1200px;
+}
+.ten-so-do-khoi {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+}
+.ma-tran-ke {
+    text-align: center;
+    letter-spacing: 16px;
+    font-weight: 600;
+}
+.ma-tran-ke-text {
+    text-align: center;
+    display: block;
+}
+.du-lieu-dau-vao-mong-muon {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-right: 50px;
+    margin-bottom: 16px;
+    width: 250px;
+    border: 2px solid #018564;
+}
+#bai-toan-cay-khung-nho-nhat-lable-2,
+#bai-toan-cay-khung-nho-nhat-input-2 {
+    display: none;
+}
+.ma-tran-ke-text {
+    margin: 0px 0px 24px;
+}
+.du-lieu-bai-toan-toi-uu {
+    display: inline-block;
+    padding: 0px 16px;
+    margin: 0px;
+}
+.submit {
+    font-size: 14px;
+    padding: 8px 12px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #d1e8e2;
+    color: #018564;
+    border: 1px solid #018564;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.submit:hover {
+    background-color: #018564;
+    color: #d1e8e2;
+    cursor: pointer;
+}
+.ket-qua-bang-chu{
+    color: #018564;
+    font-weight: 600;
+}
+#tong-ket {
+    background: aliceblue;
+}
+.qr-github {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 100px;
+}
+#footer {
+    background-color: #7205a8;
+    color: #fff;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
